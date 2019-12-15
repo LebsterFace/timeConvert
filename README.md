@@ -14,7 +14,7 @@
     timeConvert.convertString(5,"minutes","seconds") // Converts 5 minutes to seconds and format
     // Result: "5 minutes = 300 seconds"
     
-    timeConvert.valueFormat(13,"second") // Formats 13 seconds
+    timeConvert.valueFormat(13,"sec") // Formats 13 seconds
     // Result: "13 seconds"
     
 ### Time intervals:

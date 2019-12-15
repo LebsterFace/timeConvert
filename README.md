@@ -7,11 +7,15 @@
     timeConvert.valueFormat( [ AMOUNT OF TIME ], [ INTERVAL ])
 
 ### Examples:
+
     timeConvert.convert(60,"seconds","minutes") // Convert 60 seconds to minutes
     // Result: 1 (as number)
     
     timeConvert.convertString(5,"minutes","seconds") // Converts 5 minutes to seconds and format
     // Result: "5 minutes = 300 seconds"
+    
+    timeConvert.valueFormat(13,"second") // Formats 13 seconds
+    // Result: "13 seconds"
     
 ### Time intervals:
 This shows what strings can be used to represent intervals of time.

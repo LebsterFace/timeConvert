@@ -2,9 +2,9 @@
 **A super simple (and small) js library to convert amounts of time**
 
 ## Usage:
-`timeConvert.convert( [ AMOUNT OF TIME ], [ WHAT TO CONVERT FROM ], [ WHAT TO CONVERT TO ])
-timeConvert.convertString( [ AMOUNT OF TIME ], [ WHAT TO CONVERT FROM ], [ WHAT TO CONVERT TO ])
-timeConvert.valueFormat( [ AMOUNT OF TIME ], [ INTERVAL ])`
+    timeConvert.convert( [ AMOUNT OF TIME ], [ WHAT TO CONVERT FROM ], [ WHAT TO CONVERT TO ])
+    timeConvert.convertString( [ AMOUNT OF TIME ], [ WHAT TO CONVERT FROM ], [ WHAT TO CONVERT TO ])
+    timeConvert.valueFormat( [ AMOUNT OF TIME ], [ INTERVAL ])
 
 ### Examples:
     timeConvert.convert(60,"seconds","minutes") // Convert 60 seconds to minutes
